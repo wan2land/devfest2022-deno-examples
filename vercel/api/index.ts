@@ -5,6 +5,6 @@ export default function (req: VercelRequest, res: VercelResponse) {
   res.setHeader("Content-Type", "application/json");
   res.send(JSON.stringify({
     message: message ?? null,
-    version: 'v1',
+    version: "v1",
   }));
 }
