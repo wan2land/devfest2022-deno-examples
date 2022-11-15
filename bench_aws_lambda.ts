@@ -1,9 +1,9 @@
-const awsUrl =
+const url =
   "https://oguarmzimf.execute-api.ap-northeast-2.amazonaws.com/?message=hello";
 
 async function request() {
   const start = Date.now();
-  const response = await fetch(awsUrl).then((res) => res.json()) as {
+  const response = await fetch(url).then((res) => res.json()) as {
     version: string;
   };
   const end = Date.now();
