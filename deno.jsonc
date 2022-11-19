@@ -1,3 +1,6 @@
 {
-  "importMap": "import_map.json"
+  "importMap": "import_map.json",
+  "tasks": {
+    "example:deno_deploy": "deno run -A example_deno_deploy/server.ts"
+  }
 }

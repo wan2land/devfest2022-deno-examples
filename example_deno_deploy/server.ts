@@ -1,3 +1,5 @@
+// url devfest2022-deno-deploy.deno.dev
+
 import { serve } from "https://deno.land/std@0.163.0/http/server.ts";
 
 const routes = [] as [
@@ -7,7 +9,7 @@ const routes = [] as [
 
 routes.push([
   new URLPattern({ pathname: "/" }),
-  () => new Response("pong"),
+  () => new Response("pong :D"),
 ]);
 
 routes.push([
