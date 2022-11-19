@@ -14,9 +14,9 @@ export default function Home() {
           alt="the fresh logo: a sliced lemon dripping with juice"
         />
         <p class="my-6">
-          헬로 Fresh!
+          헬로 Fresh!.....
         </p>
-        <Counter start={3} />
+        <Counter start={5} />
       </div>
     </>
   );
