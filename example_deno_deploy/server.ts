@@ -9,7 +9,7 @@ const routes = [] as [
 
 routes.push([
   new URLPattern({ pathname: "/" }),
-  () => new Response("pong :D"),
+  () => new Response("pong :D...."),
 ]);
 
 routes.push([
